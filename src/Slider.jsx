@@ -22,7 +22,7 @@ export default function Slider() {
         <SwiperSlide  className='swiper-slide-card position-relative'><img src={images.card01}/>
         
         <div className="overlay">
-        <h1 className=' beige03 position-absolute z-3  start-50  translate-middle-x'> SWIPE <i className="fa-regular fa-hand-point-right fa-lg"></i></h1>
+        <h1 className=' text-dark beige03 position-absolute z-3  start-50  translate-middle-x'> SWIPE <i className="fa-regular fa-hand-point-right fa-lg"></i></h1>
 
         </div>
         </SwiperSlide>
@@ -34,7 +34,7 @@ export default function Slider() {
         <SwiperSlide className='swiper-slide-card'><img src={images.card07}/></SwiperSlide>
         <SwiperSlide className='swiper-slide-card   position-relative'  >
         <div className="overlay">
-        <h1 className=' beige03 position-absolute z-3  start-50  translate-middle-x'><i className="fa-regular fa-hand-point-left fa-lg"></i>SWIPE </h1>
+        <h1 className=' text-dark beige03 position-absolute z-3  start-50  translate-middle-x'><i className="fa-regular fa-hand-point-left fa-lg"></i>SWIPE </h1>
 
         </div>
             
