@@ -53,7 +53,7 @@ export default function App() {
         <SwiperSlide ><img src={images.two} className=' w-100'/></SwiperSlide>
         <SwiperSlide ><img src={images.three} className=' w-100'/></SwiperSlide>
         <SwiperSlide ><img src={images.four} className=' w-100'/>
-       <h1 className=' beige position-absolute z-3  start-50  translate-middle-x'><i className="fa-regular fa-hand-point-left fa-lg"></i>SWIPE </h1>
+       <h1 className=' text-dark beige position-absolute z-3  start-50  translate-middle-x'><i className="fa-regular fa-hand-point-left fa-lg"></i>SWIPE </h1>
         
         </SwiperSlide>
        
