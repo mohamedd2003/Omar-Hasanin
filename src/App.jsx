@@ -35,7 +35,7 @@ export default function App() {
         <SwiperSlide className='position-relative'>
           
           <img src={images.one} className=' w-100'/>
-       <h1 className=' beige text-warning position-absolute z-3  start-50  translate-middle-x'> SWIPE <i className="fa-regular fa-hand-point-right fa-lg"></i></h1>
+       <h1 className=' beige text-dark position-absolute z-3  start-50  translate-middle-x'> SWIPE <i className="fa-regular fa-hand-point-right fa-lg"></i></h1>
         <div className='overlay'>
           <motion.h1 
            initial={{ x: -1000 }}
