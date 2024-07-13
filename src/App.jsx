@@ -62,7 +62,10 @@ export default function App() {
 
 <div id='cards' className='my-5'>
 <Slider />
-<a href='#gallery' className='   text-dark  position-relative z-3   start-50  translate-middle-x translate-middle'> <i className="fa-solid fa-angle-down fa-bounce fa-3x mt-3"></i></a>
+<div className="m-auto d-flex justify-content-center">
+
+<a href='#gallery' className='   text-dark '> <i className="fa-solid fa-angle-down fa-bounce fa-3x mt-3"></i></a>
+</div>
 
 </div>
 
