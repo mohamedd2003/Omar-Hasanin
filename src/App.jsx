@@ -29,7 +29,7 @@ export default function App() {
           dynamicBullets: true,
         }}
         effect={'fade'}
-         autoplay={{delay:4000}}
+         autoplay={{delay:10000}}
         modules={[Pagination,EffectFade,Autoplay]}
         className="mySwiper mb-5"
       >
