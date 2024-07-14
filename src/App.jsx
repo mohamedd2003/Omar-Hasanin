@@ -17,7 +17,7 @@ import 'swiper/css/effect-fade';
 import 'swiper/css/effect-cards';
 import { EffectFade,EffectCards} from 'swiper/modules';
 // import required modules
-import { Pagination } from 'swiper/modules';
+import { Pagination ,  Autoplay } from 'swiper/modules';
 import images from '../src/images'
 import Slider from './Slider';
 
@@ -29,7 +29,8 @@ export default function App() {
           dynamicBullets: true,
         }}
         effect={'fade'}
-        modules={[Pagination,EffectFade]}
+         autoplay={{delay:4000}}
+        modules={[Pagination,EffectFade,Autoplay]}
         className="mySwiper mb-5"
       >
         <SwiperSlide className='position-relative'>
